@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Single+Day');
+.html,body{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-color: black;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    display: flex;
+}
+.left{
+    width: 30%;
+    margin-left: 10rem;
+}
+.heading{
+    font-family: 'Single Day';
+    color: #72DB73;
+    font-size: 3rem;
+    margin-top: 5rem;
+}
+.subHeading{
+    font-family: 'Roboto';
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+}
+.alert{
+    color: red;
+    font-family: 'Roboto';
+}
+.right{
+    margin-bottom: 4rem;
+    height: 80%;
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    margin-left: 2rem;
+}
+.next{
+    position: absolute;
+    bottom: 2vh;
+    right: 6vw;
+    background-color: #148A08;
+    color:white;
+    font-family: 'DM Sans';
+    width: 10rem;
+    height: 2.4rem;
+    font-size: 1.2rem;
+    border: #148A08;
+    border-radius: 38px;
+    font-weight: 500;
+}
+.next:hover{
+    cursor: pointer;
+}
